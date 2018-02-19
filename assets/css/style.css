@@ -38,6 +38,7 @@ p, ul, li {
     display: inline;
     margin: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 nav, a, p {
@@ -119,11 +120,11 @@ h3 {
 /* Picture and SECTION formatting */
 
 #bio-pic {
-    width: 50%;
+    width: 250px;
     height: 50%;
     position: relative;
     overflow: hidden;
-    margin: 25px;
+    margin-right: 25px;
     float: left;
 }
 
@@ -132,8 +133,9 @@ h3 {
     display: inline-block;
     background-color: #ffffff;
     float:left;
-    line-height: 2em;
-    padding-bottom: 50px;
+    line-height: 3em;
+    height: 80%;
+    border: 1px solid #dddddd;
 }
 
 #connect {
@@ -143,6 +145,7 @@ h3 {
     height: 200px;
     background-color: #ffffff;
     margin: 0 auto;
+    border: 1px solid #dddddd;
 }
 li img {
     height: 60px;
@@ -152,50 +155,16 @@ li img {
     margin: 3px;
 }
 
-
-/* PORTFOLIO PAGE */
-
-table {
-    width: 100%;
-    position: relative;
-    left: 15px;
-}
-
-.tbimg {
-   width: 90%;
-   height: 90%; 
-   margin: auto;
-}
-
-#portfolio {
-    width: 650px;
-    display: inline-block;
-    background-color: #ffffff;
-    margin: 0 auto;
-    float: left;
-}
-
-.tblbl {
-    text-align: center;
-    position: relative;
-    background-color: #4aaaa5;
-    color: white;
-    display: inline-block;
-    width: 90%;
-    padding: .7em 0em;
-    bottom: 55;
-    margin: auto;
-    opacity: .9;
-}
-
 /* ABOUT */
 
 #abpage {
     width: 650px;
     display: inline-block;
     background-color: #ffffff;
-    margin: 0auto;
-    float: left;
+    float:left;
+    line-height: 3em;
+    height: 80%;
+    border: 1px solid #dddddd;
 }
 
 #about1 {
@@ -207,11 +176,11 @@ table {
 
 #contact {
     width: 650px;
+    height: 550px;
     display: inline-block;
     background-color: #ffffff;
-    margin: auto;
     float: left;
-    height: 550px;
+    border: 1px solid #dddddd;
 }
 
 #cntf {
@@ -234,6 +203,44 @@ label {
     font-weight: normal;
 }
 
+
+/* PORTFOLIO PAGE */
+
+table {
+    width: 100%;
+    position: relative;
+    left: 15px;
+}
+
+.tbimg {
+   width: 90%;
+   height: 90%; 
+   margin: auto;
+}
+
+#portfolio {
+    width: 650px;
+    display: inline-block;
+    background-color: #ffffff;
+    float:left;
+    height: 80%;
+    border: 1px solid #dddddd; 
+}
+
+
+.tblbl {
+    text-align: center;
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    width: 90%;
+    padding: .8em 0em;
+    bottom: 65px;
+    margin: auto;
+    opacity: .9;
+}
+
 /* FOOTER */
 
 footer {
@@ -252,7 +259,7 @@ footer {
 }
 #foot {
     position: relative;
-    color: white;
+    color: #777777;
     top: 50%;
     font-size: 12px;
 }
