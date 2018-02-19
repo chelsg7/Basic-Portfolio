@@ -1,2 +1,2 @@
 # Basic-Portfolio
-basic portfolio
+This is a basic HTML / CSS project for coding bootcamp. It features an 'Index' in index.html which is accessible by clicking my name in the blue box in the upper left corner. It also features 3 other pages accessible through the navigation bar on the top left.

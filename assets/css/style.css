@@ -1,0 +1,258 @@
+/* general formatting BODY */
+body {
+    background-image: url('../images/back.png');
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 30px 30px;
+    text-align: justify;
+  }
+
+.full {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3  {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, ul, li {
+    display: inline;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav, a, p {
+    color: #777777;
+}
+
+html, body {
+    height: 100%;
+  }
+
+/* HEADER */
+
+header {
+    width: 960px;
+    margin: auto;
+}
+
+#headbox {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    flex-shrink: 0;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    padding: 30px 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+    margin: auto;
+    position: relative;
+    top: 45px;
+}
+
+.nbord {
+    padding: 0px 15px;
+}
+
+
+#pbord {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.title { 
+    border-bottom: 3px solid #dddddd;
+    margin: 0px 20px 0px 20px;
+    padding: 1.5em 1em 1.5em 1em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.cont2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0px 30px;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 20px;
+}
+
+
+
+/* Picture and SECTION formatting */
+
+#bio-pic {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: 25px;
+    float: left;
+}
+
+#about {
+    width: 650px;
+    display: inline-block;
+    background-color: #ffffff;
+    float:left;
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+
+#connect {
+    width: 270px;
+    float: right;
+    display: inline-block;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+li img {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    align-content: center;
+    margin: 3px;
+}
+
+
+/* PORTFOLIO PAGE */
+
+table {
+    width: 100%;
+    position: relative;
+    left: 15px;
+}
+
+.tbimg {
+   width: 90%;
+   height: 90%; 
+   margin: auto;
+}
+
+#portfolio {
+    width: 650px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 0 auto;
+    float: left;
+}
+
+.tblbl {
+    text-align: center;
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    width: 90%;
+    padding: .7em 0em;
+    bottom: 55;
+    margin: auto;
+    opacity: .9;
+}
+
+/* ABOUT */
+
+#abpage {
+    width: 650px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 0auto;
+    float: left;
+}
+
+#about1 {
+    line-height: 5em;
+    padding-left: 5%;
+}
+
+/* CONTACT */
+
+#contact {
+    width: 650px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: auto;
+    float: left;
+    height: 550px;
+}
+
+#cntf {
+    position: relative;
+    margin: auto;
+    font-size: 18px;
+}
+
+#submit {
+    position: relative;
+    top: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    padding: .7em 2em;
+}
+
+label {
+    line-height: 2em;
+    font-weight: normal;
+}
+
+/* FOOTER */
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    height: 10%;
+    margin-top: 50px;
+    border-top: 7px solid #4aaaa5;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+}
+#foot {
+    position: relative;
+    color: white;
+    top: 50%;
+    font-size: 12px;
+}
